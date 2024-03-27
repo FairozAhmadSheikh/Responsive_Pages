@@ -91,7 +91,7 @@
 
 /* For Mobile Screens */
 
-@media(max-width:500px){
+@media(max-width:768px){
     #container{
         background-image: url(https://i.pinimg.com/564x/f7/88/41/f78841efc85618e1357fe8bc620b1c4f.jpg);
     }
@@ -109,8 +109,9 @@
        font-size: 32px;
     }
     #login{
-        width: 75%;
-        height: 30%;
+        position: relative;
+        width: 400px;
+        height: 300px;
     }
     #login_btn{
         position: absolute;
@@ -119,7 +120,8 @@
         transform: translate(-50%,-50%);
     }
     .Username{
-        margin-top: 20px;
+        margin-bottom: 50px;
+        position: absolute;
         font-size: 20px;
         gap: 20px;
     }
