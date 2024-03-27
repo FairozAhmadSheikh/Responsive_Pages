@@ -23,7 +23,7 @@ const Main = () => {
 <div id="login">
     <h1>L O G I  N</h1>
     <input className='Username' type="text"  placeholder='ENTER  USERNAME' /> <br />
-    <input className='Username' type="password"placeholder='ENTER YOUR PASSWORD' />
+    <input className='Password' type="password"placeholder='ENTER YOUR PASSWORD' />
     <br />
       <button id='login_btn'>L O G I N</button>
      </div>
