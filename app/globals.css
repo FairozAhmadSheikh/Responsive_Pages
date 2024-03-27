@@ -1,0 +1,131 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#container{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(https://images.unsplash.com/photo-1711181138064-43c2e2239a45?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+}
+#nav_bar{
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.493);
+    color: white;
+}
+#Logo_txt{
+    font-family: Anurati;
+   
+}
+#list{
+    display: flex;
+    gap: 40px;
+}
+#icon{
+    color: white;
+}
+
+#login{
+   overflow: hidden;
+    position: relative;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    height: 50%;
+    width: 40%;
+    background-color: rgba(0, 0, 0, 0.61);
+    border-radius: 20px;
+
+}
+#login>h1{
+    color: white;
+    font-size: 28px;
+    font-family: Anurati;
+    text-align: center;
+    margin-top: 12px;
+    
+}
+.Username{
+    
+    color: white;
+    width: 80%;
+    margin-left:20px ;
+    margin-bottom: 20px;
+    font-family: Anurati;
+    background: transparent;
+    
+}
+#login_btn{
+    padding: 12px;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: rgb(19, 18, 18);
+    font-family: Anurati;
+    background-color: rgba(255, 255, 255, 0.521);
+    
+}
+#login>button:hover{
+    background-color: white;
+}
+#devinfo{
+    background-color: rgba(255, 255, 255, 0.801);
+    position: absolute;
+    color: rgb(14, 13, 13);
+    font-family: Anurati;
+    bottom: 16%;
+    left: 40%;
+    border-radius: 10px;
+    padding: 10px;
+}
+#devinfo:hover{
+    background-color: aqua;
+}
+
+/* For Mobile Screens */
+
+@media(max-width:500px){
+    #container{
+        background-image: url(https://i.pinimg.com/564x/f7/88/41/f78841efc85618e1357fe8bc620b1c4f.jpg);
+    }
+    #nav_bar{
+        padding: 0 10px;
+    }
+    #Logo_txt{
+        font-size: 32px;
+    }
+    #list{
+        display: none;
+    }
+    #icon{
+       padding-right: 40px;
+       font-size: 32px;
+    }
+    #login{
+        width: 75%;
+        height: 30%;
+    }
+    #login_btn{
+        position: absolute;
+        top: 70%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    .Username{
+        margin-top: 20px;
+        font-size: 20px;
+        gap: 20px;
+    }
+    #devinfo{
+        position: absolute;
+        bottom:26%;
+        left: 25%;
+    }
+}
