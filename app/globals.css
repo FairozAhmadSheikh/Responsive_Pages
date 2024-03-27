@@ -91,7 +91,7 @@
 
 /* For Mobile Screens */
 
-@media(max-width:500px){
+@media(max-width:768px){
     #container{
         background-image: url(https://i.pinimg.com/564x/f7/88/41/f78841efc85618e1357fe8bc620b1c4f.jpg);
     }
